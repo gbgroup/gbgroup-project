@@ -11,6 +11,6 @@ public class rotationscript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.Rotate(0, 20 * Time.deltaTime, 0);
+        transform.Rotate(10, 50 * Time.deltaTime, 0);
 	}
 }
